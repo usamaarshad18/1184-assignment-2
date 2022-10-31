@@ -1,0 +1,242 @@
+
+.first {
+    border: 1px solid #000;
+    background-color: yellow;
+    padding: 5px;
+    width: 40%;
+    
+    
+}
+
+.fist a + div {
+    display: none;
+}
+
+.fist	a:hover + div {
+transform: rotate(180deg);
+    display: block;
+    color: #000;
+    margin-top: -65px;
+    
+}
+
+
+
+
+.fivet h1 {
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+div.polaroid {
+width: 250px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align: center;
+}
+
+div.container {
+padding: 10px;
+}
+.two {
+width: 100px;
+height: 100px;
+background: red;
+transition-delay: 1s;
+transition: width 2s, height 2s, transform 2s;
+}
+
+.two:hover {
+width: 200px;
+height: 200px;
+transform: rotate(180deg);
+}
+.opacity img:hover {
+opacity: 0.5;
+}
+.grayscale img:hover {
+filter: grayscale(100%);
+}
+.blur img:hover {
+filter: blur(5px);
+}
+div.gallery {
+margin: 0px;
+border: 1px solid #ccc;
+float: left;
+width: 24%;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+.gal{
+width: 100%;
+}
+@media screen and (min-width: 800px) {
+div.gallery {
+  width: 24%;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+div.gallery {
+  width: 48%;
+}
+}
+@media screen and (max-width: 300px) {
+div.gallery {
+  width: 96%;
+}
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-color: #000;
+}
+.tagheading {
+    background-color: rgb(136, 120, 203);
+    text-align: center;
+  }
+ .bgp p {
+    background-color: rgb(135, 79, 120);
+  }
+  p.intro {
+    background-color: rgb(8, 96, 53);
+  }
+  h5, address {
+    background-color: rgb(100, 7, 214);
+  }
+  div p {
+    background-color: yellow;
+  }
+  div > p {
+    background-color: rgba(0, 179, 255, 0.542);
+  }
+  a:active {
+    background-color: rgb(255, 0, 0);
+  }
+  a:hover {
+    background-color: rgb(55, 0, 255);
+  }
+  p::first-line {
+    color: red;
+  }
+  
+  /*---------------------------------------------------------*/
+  #center div {
+   
+    border: 1px solid #c3c3c3;
+    display: flex;
+    
+    align-content: center;
+  }
+ 
+ .all div {
+    background-color: yellow;
+    color: rgb(0, 255, 76);
+    all: initial;
+  }
+.ani  div {
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+  }
+ 
+ .bgi {
+    background-image: url("images/nature.png");
+    background-repeat: repeat-y;
+    text-decoration-color: #fff;
+  }
+.bor {
+    border: 3px solid red;
+  }
+  
+ 
+  h3 {
+    border-bottom: 5px solid red;
+    border-style: dotted;
+  }
+  
+  
+ 
+  
+  #table1 {
+    border-collapse: separate;
+    border-spacing: 15px;
+    border: 5px rgb(203, 16, 16) solid;
+    table-layout: fixed;
+    
+    
+   
+  }
+  
+ 
+  .dot {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+  
+  
+  
+  
+  body {
+    color: #000;
+  }
+  
+  a::after {
+    content: " (" attr(href) ")";
+  }
+  p.rtl {
+    direction: rtl;
+  }
+ 
+  p.a {
+    font: 15px Arial, sans-serif;
+  }
+  
+  
+  div a {
+    font-size: 20px;
+  }
+  p.thick {
+    font-weight: bold;
+  }
+ 
+  div.a {
+    line-height: normal;
+  }
+  ul {list-style-type: square;}
+  p {
+    margin: 5px;
+  }
+  .out {
+    outline: 5px dotted green;
+    outline-style: dotted;
+  }
+  
+  p {
+    padding: 5px;
+  }
+ .pos {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+  }
+  
+  div.a {
+    text-align: center;
+  }
+ 
+  .upr {
+    text-transform: uppercase;
+  }
+  
+  
